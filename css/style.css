@@ -3,3 +3,84 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.main-section{
+    width: calc(100vw - 75px);
+}
+
+/* TO DELETE */
+
+.content{
+    width: 100%;
+}
+
+.logo, .notification{
+    height: 50px;
+    margin: 10px 0;
+    background-color: greenyellow;
+}
+
+.search-bar{
+    height: 50px;
+    margin: 10px 0;
+    background-color: lightgrey;
+}
+
+.side-bar{
+    width: 75px;
+    height: calc(100vh - 70px);
+    background-color: blue;
+}
+
+@media screen and (min-width:992px) {
+    .side-bar{
+        width: 150px;
+    }
+
+    .ul, .settings{
+        width: 120px;
+    }
+
+    .main-section{
+        width: calc(100vw - 150px);
+    }
+}
+
+.ul{
+    height: 150px;
+    width: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.settings{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.new, .badges, .online{
+    height: 50px;
+    background-color: green;
+}
+
+.next{
+    height: 400px;
+    background-color: blue;
+}
+
+.faq{
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.todo{
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.active{
+    height: 500px;
+    background-color: aquamarine;
+}
