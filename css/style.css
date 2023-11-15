@@ -8,7 +8,6 @@
     width: calc(100vw - 75px);
 }
 
-/* TO DELETE */
 
 .content{
     width: 100%;
@@ -21,22 +20,24 @@
 .side-bar{
     width: 75px;
     height: calc(100vh - 70px);
-    background-color: blue;
+    background-color: rgba(5,30,52,255);
+    background-image: url(../img/sidebar-bg.png);
 }
 
 @media screen and (min-width:992px) {
     .side-bar{
         width: 150px;
     }
-
+    
     .ul, .settings{
         width: 120px;
     }
-
+    
     .main-section{
         width: calc(100vw - 150px);
     }
 }
+/* TO DELETE */
 
 .ul{
     height: 150px;
