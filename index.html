@@ -14,21 +14,30 @@
     <body>
         <!-- HEADER -->
         <header>
-            <div class="container-fluid">
-                <div class="row">
+            <div class="container-fluid h-75">
+                <div class="row align-items-center">
                     <div class="col-2">
-                        <div class="content logo">
-
+                        <div class="content">
+                            <img class="img-fluid d-md-none" src="./img/mobile-logo.png" alt="mobile-logo">
+                            <img src="./img/logo.svg" alt="logo" class="img-fluid d-none d-md-block mt-2">
                         </div>
                     </div>
                     <div class="col-9 col-lg-8">
-                        <div class="content search-bar">
-
+                        <div class="content search-bar my-3 rounded-2 p-2 fs-6">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <div class="text-secondary d-inline">
+                                Prova a cercare: Lezioni di Laravel
+                            </div>
                         </div>
                     </div>
                     <div class="col-1 col-lg-2">
-                        <div class="content notification">
-
+                        <div class="content text-end">
+                            <div class="d-flex justify-content-around">
+                                <i class="fa-solid fa-list-ul d-none d-lg-block text-secondary"></i>
+                                <i class="fa-solid fa-circle-question d-none d-lg-block text-secondary"></i>
+                                <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block text-secondary"></i>
+                                <i class="fa-solid fa-bell text-warning"></i>
+                            </div>
                         </div>
                     </div>
                 </div>

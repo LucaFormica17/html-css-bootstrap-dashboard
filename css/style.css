@@ -14,16 +14,8 @@
     width: 100%;
 }
 
-.logo, .notification{
-    height: 50px;
-    margin: 10px 0;
-    background-color: greenyellow;
-}
-
 .search-bar{
-    height: 50px;
-    margin: 10px 0;
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
 }
 
 .side-bar{
