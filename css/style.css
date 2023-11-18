@@ -8,7 +8,6 @@
     width: calc(100vw - 75px);
 }
 
-
 .content{
     width: 100%;
 }
@@ -24,6 +23,35 @@
     background-image: url(../img/sidebar-bg.png);
 }
 
+.bg-blue{
+    background-color: rgba(27,114,232,255);
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li:hover{
+    background-color: rgba(229, 229, 229, 0.427);
+}
+
+.home{
+    padding-left: 10px;
+}
+
+.stats{
+    padding-left: 14px;
+}
+
+.signals{
+    padding-left: 7px;
+}
+
+.offcanvas.offcanvas-end.w-off{
+    width: 100%;
+}
+
 @media screen and (min-width:992px) {
     .side-bar{
         width: 150px;
@@ -36,44 +64,9 @@
     .main-section{
         width: calc(100vw - 150px);
     }
-}
-/* TO DELETE */
 
-.ul{
-    height: 150px;
-    width: 50px;
-    margin-top: 10px;
-    background-color: white;
-}
-
-.settings{
-    height: 50px;
-    width: 50px;
-    margin-bottom: 10px;
-    background-color: white;
-}
-
-.new, .badges, .online{
-    height: 50px;
-    background-color: green;
-}
-
-.next{
-    height: 400px;
-    background-color: blue;
-}
-
-.faq{
-    height: 150px;
-    background-color: blueviolet;
-}
-
-.todo{
-    height: 100px;
-    background-color: yellowgreen;
-}
-
-.active{
-    height: 500px;
-    background-color: aquamarine;
+    .offcanvas.offcanvas-end.w-off{
+        width: 50%;
+    }
+    
 }
