@@ -6,6 +6,8 @@
 
 .main-section{
     width: calc(100vw - 75px);
+    height: calc(100vh - 75px);
+    overflow-y: auto;
 }
 
 .content{
@@ -51,6 +53,16 @@ li:hover{
 .offcanvas.offcanvas-end.w-off{
     width: 100%;
 }
+
+.bg-badge{
+    background-color: rgba(22,91,186,255);
+}
+
+.w-img{
+    width: 30px;
+    margin-right: 10px;
+}
+
 
 @media screen and (min-width:992px) {
     .side-bar{
