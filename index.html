@@ -40,10 +40,10 @@
                                     <button class="btn border border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-bell text-warning"></i>
                                     </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    <ul class="dropdown-menu ps-0">
+                                      <li class="bg-hov"><a class="dropdown-item" href="#">Profilo</a></li>
+                                      <li class="bg-hov"><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                      <li class="bg-hov"><a class="dropdown-item" href="#">Logout</a></li>
                                     </ul>
                                   </div>
                             </div>
@@ -60,16 +60,16 @@
                     <div class="row">
                         <div class="col-12 mt-3">
                             <div class="text-white d-flex justify-content-center">
-                                <ul>
-                                    <li class="py-2 fs-5">
+                                <ul class="ps-0">
+                                    <li class="py-2 fs-5 bg-hov">
                                         <i class="fa-solid fa-house"></i>
                                         <span class="d-none d-lg-inline home">Home</span>
                                     </li>
-                                    <li class="py-2 fs-5">
+                                    <li class="py-2 fs-5 bg-hov">
                                         <i class="fa-solid fa-chart-simple"></i>
                                         <span class="d-none d-lg-inline stats">Stats</span>
                                     </li>
-                                    <li class="py-2 fs-5">
+                                    <li class="py-2 fs-5 bg-hov">
                                         <i class="fa-solid fa-signal"></i>
                                         <span class="d-none d-lg-inline signals">Signals</span>
                                     </li>
@@ -359,7 +359,41 @@
                         <div class="col-12 col-lg-4">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="content todo"></div>
+                                    <div class="card mt-4 mt-md-0">
+                                        <div class="card-header">
+                                            <h2>Todo</h2>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                              Kickoff nuove classi
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                              Lezione su Bootstrap 5 in classe #75
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                              Controllare username github studenti
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="content active"></div>
                                 </div>
                             </div>

@@ -31,10 +31,9 @@
 
 ul{
     list-style-type: none;
-    padding-left: 0;
 }
 
-li:hover{
+.bg-hov:hover{
     background-color: rgba(229, 229, 229, 0.427);
 }
 
